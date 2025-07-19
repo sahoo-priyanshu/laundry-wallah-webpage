@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>🧾 Customer Information - Laundry Booking</title>
+</head>
+<body>
+
+    <h2>🧾 Customer Information Form - Laundry Wallah & Laundry Mart</h2>
+
+    <form action="thankyou.html" method="post">
+        <table border="1" cellpadding="8">
+            <tr><td>1. Full Name:</td><td><input type="text" name="fullname" required></td></tr>
+            <tr><td>2. Contact Number:</td><td><input type="tel" name="contact" required></td></tr>
+            <tr><td>3. Email ID:</td><td><input type="email" name="email" required></td></tr>
+            <tr><td>4. Address:</td><td><input type="text" name="address" required></td></tr>
+            <tr><td>5. City:</td><td><input type="text" name="city" required></td></tr>
+            <tr><td>6. Pincode:</td><td><input type="text" name="pincode" required></td></tr>
+            <tr><td>7. Landmark:</td><td><input type="text" name="landmark"></td></tr>
+            <tr><td>8. Laundry Item(s):</td><td><input type="text" name="items" required></td></tr>
+            <tr><td>9. Quantity:</td><td><input type="number" name="quantity" required></td></tr>
+            <tr><td>10. Pickup Date:</td><td><input type="date" name="pickupdate" required></td></tr>
+            <tr><td>11. Pickup Time:</td><td><input type="time" name="pickuptime" required></td></tr>
+            <tr><td>12. Delivery Date:</td><td><input type="date" name="deliverydate" required></td></tr>
+            <tr><td>13. Delivery Time:</td><td><input type="time" name="deliverytime" required></td></tr>
+            <tr><td>14. Payment Method:</td>
+                <td>
+                    <select name="payment" required>
+                        <option value="Cash">Cash</option>
+                        <option value="UPI">UPI</option>
+                        <option value="Card">Card</option>
+                        <option value="Wallet">Wallet</option>
+                    </select>
+                </td>
+            </tr>
+            <tr><td>15. Laundry Preferences:</td><td><input type="text" name="preferences"></td></tr>
+            <tr><td>16. Stain Treatment Needed?</td>
+                <td>
+                    <input type="radio" name="stain" value="Yes">Yes
+                    <input type="radio" name="stain" value="No">No
+                </td>
+            </tr>
+            <tr><td>17. Type of Fabric:</td><td><input type="text" name="fabric"></td></tr>
+            <tr><td>18. Any Allergies to Detergents?</td><td><input type="text" name="allergy"></td></tr>
+            <tr><td>19. Additional Instructions:</td><td><input type="text" name="instructions"></td></tr>
+           <tr><td>20. Feedback (Optional):</td><td><textarea name="feedback" rows="4" cols="40" placeholder="Write your feedback here..."></textarea></td></tr>
+
+        </table><br>
+
+        <input type="submit" value="Submit Details">
+    </form>
+
+</body>
+</html>
